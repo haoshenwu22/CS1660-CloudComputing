@@ -31,7 +31,7 @@ const EditMenuItem = () => {
 
     const handleEditClick = (item) => {
         setSelectedItem(item); // Set the selected item for editing
-        const [key, value] = Object.entries(item)[0];
+        const [, value] = Object.entries(item)[0];
         setFormData({
             name: value.name,
             price: value.price,
@@ -160,7 +160,7 @@ const EditMenuItem = () => {
             ) : (
                 <ul>
                     {menu.map((item, index) => {
-                        const [key, value] = Object.entries(item)[0];
+                        const [, value] = Object.entries(item)[0];
                         return (
                             <li key={index}>
                                 <img

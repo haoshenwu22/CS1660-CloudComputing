@@ -20,7 +20,7 @@ const TablePage = () => {
     
                 // Filter menu items based on availability
                 const availableMenu = response.data.menu.filter((item) => {
-                    const [_, value] = Object.entries(item)[0]; // Extract the value object
+                    const [, value] = Object.entries(item)[0]; // Extract the value object
                     return value.availability === true; // Check availability
                 });
     

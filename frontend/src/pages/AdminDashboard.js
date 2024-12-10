@@ -35,7 +35,7 @@ const AdminDashboard = () => {
             ) : (
                 <ul style={{ listStyle: "none", padding: 0 }}>
                     {menu.map((item, index) => {
-                        const [key, value] = Object.entries(item)[0];
+                        const [, value] = Object.entries(item)[0];
                         return (
                             <li key={index} style={{ marginBottom: "20px", display: "flex", alignItems: "center" }}>
                                 <img
