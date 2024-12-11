@@ -1,4 +1,5 @@
 # CS1660-CloudComputing Final Project
+**GitHub Repo Url:** https://github.com/haoshenwu22/CS1660-CloudComputing
 ## **QR Code Restaurant Ordering System**
 
 This project is a comprehensive **QR Code Ordering System** designed for restaurants to streamline their ordering process. It enables customers to browse the menu, place orders, track order statuses, and check out directly from their tables using a mobile-friendly web interface. Administrators have full control over the system via an admin dashboard to manage menu items and monitor or update customer orders.
