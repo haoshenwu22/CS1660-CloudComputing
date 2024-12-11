@@ -9,9 +9,6 @@ const TablePage = () => {
     const [order, setOrder] = useState([]); // State for the current order
     const [error, setError] = useState(null); // State for handling errors
     const [successMessage, setSuccessMessage] = useState(null); // State for order success message
-    // const [orders, setOrders] = useState([]); // State for fetched orders
-    // const [trackingError, setTrackingError] = useState(null); // State for tracking errors
-    // const [hasTrackedOrders, setHasTrackedOrders] = useState(false); // Track if "Track Orders" button is clicked
 
     useEffect(() => {
         const fetchMenu = async () => {
