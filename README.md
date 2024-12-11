@@ -109,6 +109,7 @@ Every push to this repository triggers the **`firebase-deploy.yml`** GitHub Acti
 ---
 
 ## **Architectural Diagram**
+![Alt Text](architecturalDiagram.png)
 [View the Architectural Diagram PDF](architecturalDiagram.pdf)  
 Below is the flow of the system:
 
